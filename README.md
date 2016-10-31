@@ -1,2 +1,2 @@
 # InstagramCrawlsForPython
-instagram资信爬虫Python版
+instagram资信爬虫Python版(帮运营同事写的小工具)
