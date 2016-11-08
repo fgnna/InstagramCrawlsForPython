@@ -1,7 +1,3 @@
-import time 
-print time.strftime("%Y-%m-%d_%H:%M:%S",time.localtime(1472832229))
+import requests
 
-from distutils.core import setup  
-import py2exe  
-  
-setup(console=["HelloPy2exe.py"])  
+requests.get('https://api.github.com/user', auth=('user', 'pass'))
