@@ -64,7 +64,7 @@ def check_network():
         urllib2.urlopen("https://www.instagram.com/instagram/?__a=1", timeout=10)
     except IOError:
         print "     无ＶＰＮ网络连接，继续进行Shadowsocks代理连接检测:http://127.0.0.1:1080"
-        proxy = urllib2.ProxyHandler({'https': 'http://127.0.0.1:1080'})
+        proxy = urllib2.ProxyHandler({'https': 'http://192.168.1.197:1080'})
         opener = urllib2.build_opener(proxy)
         urllib2.install_opener(opener)
         urllib2.urlopen("https://www.instagram.com/instagram/?__a=1")
