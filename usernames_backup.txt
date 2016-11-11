@@ -342,10 +342,6 @@ realmadrid
 皇家马德里
 2016
 皇家马德里
-alvaromorata
-皇家马德里
-2016
-莫拉塔
 toni.kr8s
 皇家马德里
 2016
@@ -578,6 +574,10 @@ marchisiocla8
 尤文图斯
 1242
 马尔基西奥
+alvaromorata
+尤文图斯
+1242
+莫拉塔
 acmilan
 AC米兰
 1240
